@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/styles.css">
+  <title>Frontend Mentor | Results summary component</title>
+  <!-- Google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div id="result__summary">
+    <article class="result__block">
+      <header class="result__header">
+        Your Result
+      </header>
+      <div class="result__score">
+        <div class="result__score--number">
+          76
+        </div>
+        <div class="result__score--out-of">
+          of 100
+        </div>
+      </div>
+      <div class="result__description">
+        <div class="result__description--head">
+          Great
+        </div>
+        <div class="result__description--body">
+          You scored higher than 65% of the people who have taken these tests.
+        </div>
+      </div>
+    </article>
+    <article class="summary">
+      <header class="summary__head">
+        Summary
+      </header>
+      <div class="summary__reaction summary__box">
+        <img src="./assets/images/icon-reaction.svg" alt="reaction time icon" class="summary__reaction--icon">
+        <div class="summary__reaction--head">
+          Reaction
+        </div>
+        <div class="summary__reaction--body">
+          80 <span class="summary__score--out-of">/ 100</span>
+        </div>
+      </div>
+      <div class="summary__memory summary__box">
+        <img src="./assets/images/icon-memory.svg" alt="memory icon" class="summary__memory--icon">
+        <div class="summary__memory--head">
+          Memory
+        </div>
+        <div class="summary__memory--body">
+          92 <span class="summary__score--out-of">/ 100</span>
+        </div>
+
+      </div>
+      <div class="summary__verbal summary__box">
+        <img src="./assets/images/icon-verbal.svg" alt="verbal icon" class="summary__verbal--icon">
+        <div class="summary__verbal--head">
+          Verbal
+        </div>
+        <div class="summary__verbal--body">
+          61 <span class="summary__score--out-of">/ 100</span>
+        </div>
+      </div>
+      <div class="summary__visual summary__box">
+        <img src="./assets/images/icon-visual.svg" alt="visual icon" class="summary__visual--icon">
+        <div class="summary__visual--head">
+          Visual
+        </div>
+        <div class="summary__visual--body">
+          72 <span class="summary__score--out-of">/ 100</span>
+        </div>
+      </div>
+      <div class="continue__bar">
+        Continue
+      </div>
+    </article>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Eo Soo Kim</a>.
+  </div>
+</body>
+</html>
